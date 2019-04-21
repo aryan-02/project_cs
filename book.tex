@@ -493,7 +493,21 @@ int main()
 	return 0;
 }
 \end{lstlisting}
-If you compile and run this, you'll get the output as 11. The reason should be obvious. We know that when we add 6 and 5, we will get 11.
+If you compile and run this, you'll get the output as 11. The reason should be obvious. We know that when we add 6 and 5, we will get 11.\\
+Now, think about this. What will this piece of code do?
+\begin{lstlisting}
+#include <iostream>
+int main()
+{
+	int a {6};
+	a = a + 2;
+	std::cout << a << std::endl;
+	return 0;
+}
+\end{lstlisting}
+We made a new variable (bucket) and gave it the value 6. Then, we said \lstinline{a = a + 2;}. If this confuses you, don't worry. Just remember that this is not an algebraic equation. It is an \textbf{instruction} to the computer. What it does is that it sets the value of the variable \lstinline{a} to a new value which is exactly two more than its initial value.\\
+Therefore, the output of the above program will be $8$, since $6 + 2 = 8$.\\
+We will soon find that there is another operator to do exactly that, and requires us to type less. However, if I had just shown you what that operator did, you'd never know anything like \lstinline{a = a + 2;} is possible. That's the fun of learning. First, you learn it the hard way; and then, once you've understood how things work, you learn it the easy way.
 \subsubsection{The Subtraction operator}
 Again, you probably know what it does, but let me still say it.\\
 The subtraction operator finds the difference between the first and second values it is provided with.\\
@@ -599,6 +613,22 @@ By now, you would've got an idea of how operators work. So let me just show you 
 \end{center}
 And well, that's it! The XOR gate is just a combination of AND, OR and NOT.\\
 Basically, $a \text{ XOR } b = [a \text{ AND } (\text{ NOT } b )] \text{ OR } [b \text{ AND } (\text{ NOT } a )]$\\
+\subsection{Comparison Operators}
+Here's a table of the comparison operators in C++. You'll find them quite simple. They return a boolean value (\lstinline{true} or \lstinline{false}), based on whether the whole statement is \lstinline{true} or \lstinline{false}.
+\begin{center}
+	\begin{tabular}{ |c|c| } 
+		\hline
+		Operator on x and y & Comparison\\
+		\hline
+		x == y & equal\\
+		x != y & not equal to\\
+		x $<$ y  & less than\\
+		x $>$ y  & greater than\\
+		x $<=$ y & less than or equal to\\
+		x $>=$ y & greater than or equal to\\
+		\hline
+	\end{tabular}
+\end{center}
 \subsection{End Note on Operators}
 These are not the only operators in C++. We will talk about more operators later. In fact, C++ is so flexible that it even allows custom operators.\\
 Also, you can always use multiple operators in the same instruction. When you do that, you can use parentheses, i.e. round brackets () to specify which operation is to be done first. For example:
@@ -606,7 +636,7 @@ Also, you can always use multiple operators in the same instruction. When you do
 #include <iostream>
 int main()
 {
-	std::cout << ((2 + 2) - 1 << std::endl;
+	std::cout << ((2 + 2) - 1) << std::endl;
 	return 0;
 }
 \end{lstlisting}

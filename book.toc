@@ -42,11 +42,12 @@
 \contentsline {subsection}{\numberline {4.6.1}The assignment operator}{34}{subsection.4.6.1}% 
 \contentsline {subsection}{\numberline {4.6.2}The arithmetic operators}{34}{subsection.4.6.2}% 
 \contentsline {subsubsection}{The addition operator}{34}{section*.9}% 
-\contentsline {subsubsection}{The Subtraction operator}{35}{section*.10}% 
+\contentsline {subsubsection}{The Subtraction operator}{36}{section*.10}% 
 \contentsline {subsubsection}{The Multiplication operator}{36}{section*.11}% 
-\contentsline {subsubsection}{The Division operator}{36}{section*.12}% 
+\contentsline {subsubsection}{The Division operator}{37}{section*.12}% 
 \contentsline {subsubsection}{The Modulo Operator}{37}{section*.13}% 
-\contentsline {subsection}{\numberline {4.6.3}Boolean Operators}{37}{subsection.4.6.3}% 
+\contentsline {subsection}{\numberline {4.6.3}Boolean Operators}{38}{subsection.4.6.3}% 
 \contentsline {subsubsection}{The OR operator}{38}{section*.14}% 
-\contentsline {subsubsection}{Other Boolean Operators}{38}{section*.15}% 
-\contentsline {subsection}{\numberline {4.6.4}End Note on Operators}{38}{subsection.4.6.4}% 
+\contentsline {subsubsection}{Other Boolean Operators}{39}{section*.15}% 
+\contentsline {subsection}{\numberline {4.6.4}Comparison Operators}{39}{subsection.4.6.4}% 
+\contentsline {subsection}{\numberline {4.6.5}End Note on Operators}{39}{subsection.4.6.5}% 
