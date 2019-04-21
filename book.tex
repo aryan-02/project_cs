@@ -220,6 +220,30 @@ Declarative knowledge is the type of knowledge that states facts about something
 		\item The ones you define yourself.
 	\end{itemize}
 \end{itemize}
+\chapter{Talking About Algorithms}
+\epigraph{\centering ``An algorithm must be seen to be seen to be believed."}{\textit{Donald Knuth \\ The creator of the TeX computer typesetting system}}
+\section{Motivation}
+We often have to tell the computer what to do. But what if we want to tell the computer how to do what needs to be done? How can we tell a computer the procedure to do something? Obviously, before we can tell the computer how something must be done, we should know that procedure in the first place.\\
+\begin{figure}[h]
+\centering
+\includegraphics[scale=0.3]{img/algo_intro_meme}
+\end{figure}
+\section{What is an Algorithm?}
+You can think of an algorithm as a well-defined computational procedure that takes some value(s) as inputs and returns some value(s) as output. It is like a mathematical device used to solve a computational problem. Algorithms can be represented in many ways, such as a computer program, a flowchart or even structured English (or any other language).\\
+A highly effective analogy to understand an algorithm is a \textbf{recipe}. Just like a recipe, an algorithm has a series of well-defined steps that help in solving a problem.\\
+Here's a simple example of an algorithm to call a friend using a telephone.\\
+\textbf{Input: }Your friend's telephone number.\\
+\textbf{Steps:}
+\begin{lstlisting}
+Pick up the receiver.
+Dial the number received as input on the keypad.
+Wait until you hear it ringing. Continue when you no longer hear the ringing sound.
+If you hear your friend, go to step 6.
+If you do not hear your friend, end the call. Wait 5 minutes. Go to step 1.
+Talk to your friend.
+End the call.
+Halt.
+\end{lstlisting}
 \chapter{Boolean Algebra}
 \epigraph{\centering ``One should never try to prove anything that is not almost obvious."}{\textit{Alexander Grothendieck \\ French Mathematician, 1966 Fields Medallist}}
 Boolean algebra is a concept of mathematics that helps us deal with statements about truth and allows us to formally talk about what is true and what is false.\\
@@ -626,6 +650,21 @@ Here's a table of the comparison operators in C++. You'll find them quite simple
 		x $>$ y  & greater than\\
 		x $<=$ y & less than or equal to\\
 		x $>=$ y & greater than or equal to\\
+		\hline
+	\end{tabular}
+\end{center}
+\subsection{Other operators}
+\begin{center}
+	\begin{tabular}{ |c|c| } 
+		\hline
+		Operator on x & Equivalent to\\
+		\hline
+		$++x$ & $x = x + 1$\\
+		$--x$ & $x = x - 1$\\
+		$x += 2$ & $x = x + 2$\\
+		$x -= 3$ & $x = x - 3$\\
+		$x /= 4$ & $x = x / 4$\\
+		$x \%= 4$& $x = x \% 4$\\
 		\hline
 	\end{tabular}
 \end{center}

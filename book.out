@@ -17,30 +17,34 @@
 \BOOKMARK [2][-]{subsection.2.1.2}{Things we already know}{section.2.1}% 17
 \BOOKMARK [1][-]{section.2.2}{Types of Knowledge}{chapter.2}% 18
 \BOOKMARK [1][-]{section.2.3}{Things to Keep in Mind}{chapter.2}% 19
-\BOOKMARK [0][-]{chapter.3}{Boolean Algebra}{}% 20
-\BOOKMARK [1][-]{section.3.1}{Some Background}{chapter.3}% 21
-\BOOKMARK [1][-]{section.3.2}{Variables}{chapter.3}% 22
-\BOOKMARK [1][-]{section.3.3}{A simple warm-up}{chapter.3}% 23
-\BOOKMARK [1][-]{section.3.4}{Gates}{chapter.3}% 24
-\BOOKMARK [2][-]{subsection.3.4.1}{The AND gate}{section.3.4}% 25
-\BOOKMARK [2][-]{subsection.3.4.2}{The OR Gate}{section.3.4}% 26
-\BOOKMARK [2][-]{subsection.3.4.3}{The XOR Gate}{section.3.4}% 27
-\BOOKMARK [2][-]{subsection.3.4.4}{The NOT gate}{section.3.4}% 28
-\BOOKMARK [1][-]{section.3.5}{Boolean Identities}{chapter.3}% 29
-\BOOKMARK [1][-]{section.3.6}{Boolean Algebra and Set Theory}{chapter.3}% 30
-\BOOKMARK [0][-]{chapter.4}{C++ From Scratch}{}% 31
-\BOOKMARK [1][-]{section.4.1}{The language}{chapter.4}% 32
-\BOOKMARK [1][-]{section.4.2}{The Minimal Program}{chapter.4}% 33
-\BOOKMARK [1][-]{section.4.3}{Console Output}{chapter.4}% 34
-\BOOKMARK [1][-]{section.4.4}{Comments}{chapter.4}% 35
-\BOOKMARK [2][-]{subsection.4.4.1}{Single-line comments}{section.4.4}% 36
-\BOOKMARK [2][-]{subsection.4.4.2}{Multi-line comments}{section.4.4}% 37
-\BOOKMARK [1][-]{section.4.5}{Variables}{chapter.4}% 38
-\BOOKMARK [2][-]{subsection.4.5.1}{A Useful Analogy}{section.4.5}% 39
-\BOOKMARK [2][-]{subsection.4.5.2}{Declaring Variables}{section.4.5}% 40
-\BOOKMARK [1][-]{section.4.6}{Operators and Operands}{chapter.4}% 41
-\BOOKMARK [2][-]{subsection.4.6.1}{The assignment operator}{section.4.6}% 42
-\BOOKMARK [2][-]{subsection.4.6.2}{The arithmetic operators}{section.4.6}% 43
-\BOOKMARK [2][-]{subsection.4.6.3}{Boolean Operators}{section.4.6}% 44
-\BOOKMARK [2][-]{subsection.4.6.4}{Comparison Operators}{section.4.6}% 45
-\BOOKMARK [2][-]{subsection.4.6.5}{End Note on Operators}{section.4.6}% 46
+\BOOKMARK [0][-]{chapter.3}{Talking About Algorithms}{}% 20
+\BOOKMARK [1][-]{section.3.1}{Motivation}{chapter.3}% 21
+\BOOKMARK [1][-]{section.3.2}{What is an Algorithm?}{chapter.3}% 22
+\BOOKMARK [0][-]{chapter.4}{Boolean Algebra}{}% 23
+\BOOKMARK [1][-]{section.4.1}{Some Background}{chapter.4}% 24
+\BOOKMARK [1][-]{section.4.2}{Variables}{chapter.4}% 25
+\BOOKMARK [1][-]{section.4.3}{A simple warm-up}{chapter.4}% 26
+\BOOKMARK [1][-]{section.4.4}{Gates}{chapter.4}% 27
+\BOOKMARK [2][-]{subsection.4.4.1}{The AND gate}{section.4.4}% 28
+\BOOKMARK [2][-]{subsection.4.4.2}{The OR Gate}{section.4.4}% 29
+\BOOKMARK [2][-]{subsection.4.4.3}{The XOR Gate}{section.4.4}% 30
+\BOOKMARK [2][-]{subsection.4.4.4}{The NOT gate}{section.4.4}% 31
+\BOOKMARK [1][-]{section.4.5}{Boolean Identities}{chapter.4}% 32
+\BOOKMARK [1][-]{section.4.6}{Boolean Algebra and Set Theory}{chapter.4}% 33
+\BOOKMARK [0][-]{chapter.5}{C++ From Scratch}{}% 34
+\BOOKMARK [1][-]{section.5.1}{The language}{chapter.5}% 35
+\BOOKMARK [1][-]{section.5.2}{The Minimal Program}{chapter.5}% 36
+\BOOKMARK [1][-]{section.5.3}{Console Output}{chapter.5}% 37
+\BOOKMARK [1][-]{section.5.4}{Comments}{chapter.5}% 38
+\BOOKMARK [2][-]{subsection.5.4.1}{Single-line comments}{section.5.4}% 39
+\BOOKMARK [2][-]{subsection.5.4.2}{Multi-line comments}{section.5.4}% 40
+\BOOKMARK [1][-]{section.5.5}{Variables}{chapter.5}% 41
+\BOOKMARK [2][-]{subsection.5.5.1}{A Useful Analogy}{section.5.5}% 42
+\BOOKMARK [2][-]{subsection.5.5.2}{Declaring Variables}{section.5.5}% 43
+\BOOKMARK [1][-]{section.5.6}{Operators and Operands}{chapter.5}% 44
+\BOOKMARK [2][-]{subsection.5.6.1}{The assignment operator}{section.5.6}% 45
+\BOOKMARK [2][-]{subsection.5.6.2}{The arithmetic operators}{section.5.6}% 46
+\BOOKMARK [2][-]{subsection.5.6.3}{Boolean Operators}{section.5.6}% 47
+\BOOKMARK [2][-]{subsection.5.6.4}{Comparison Operators}{section.5.6}% 48
+\BOOKMARK [2][-]{subsection.5.6.5}{Other operators}{section.5.6}% 49
+\BOOKMARK [2][-]{subsection.5.6.6}{End Note on Operators}{section.5.6}% 50

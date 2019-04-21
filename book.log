@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6930 64-bit) (preloaded format=pdflatex 2019.1.31)  21 APR 2019 23:11
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6930 64-bit) (preloaded format=pdflatex 2019.1.31)  22 APR 2019 00:42
 entering extended mode
 **C:/Users/Aryan/Desktop/stuff/project_cs/book.tex
 (C:/Users/Aryan/Desktop/stuff/project_cs/book.tex
@@ -404,17 +404,17 @@ Underfull \hbox (badness 10000) in paragraph at lines 45--50
 ]
 Chapter 1.
 [7] [8]
-<img/ritchie.jpg, id=321, 121.1727pt x 159.4758pt>
+<img/ritchie.jpg, id=345, 121.1727pt x 159.4758pt>
 File: img/ritchie.jpg Graphic file (type jpg)
 <use img/ritchie.jpg>
 Package pdftex.def Info: img/ritchie.jpg  used on input line 73.
 (pdftex.def)             Requested size: 85.35826pt x 112.34041pt.
-<img/kenthompson.jpg, id=322, 220.825pt x 255.95625pt>
+<img/kenthompson.jpg, id=346, 220.825pt x 255.95625pt>
 File: img/kenthompson.jpg Graphic file (type jpg)
 <use img/kenthompson.jpg>
 Package pdftex.def Info: img/kenthompson.jpg  used on input line 75.
 (pdftex.def)             Requested size: 85.35826pt x 98.93596pt.
-<img/stroustrup.jpg, id=323, 634.37pt x 956.57375pt>
+<img/stroustrup.jpg, id=347, 634.37pt x 956.57375pt>
 File: img/stroustrup.jpg Graphic file (type jpg)
 <use img/stroustrup.jpg>
 Package pdftex.def Info: img/stroustrup.jpg  used on input line 77.
@@ -428,7 +428,7 @@ Package pdftex.def Info: img/stroustrup.jpg  used on input line 77.
 
 <Copying the QR code for "https://www.youtube.com/watch?v=1OsGXuNA5cc" in versi
 on 4-Q as previously calculated.>
-<img/dark.png, id=332, 632.3625pt x 428.35031pt>
+<img/dark.png, id=356, 632.3625pt x 428.35031pt>
 File: img/dark.png Graphic file (type png)
 <use img/dark.png>
 Package pdftex.def Info: img/dark.png  used on input line 101.
@@ -437,12 +437,12 @@ Package pdftex.def Info: img/dark.png  used on input line 101.
 Underfull \vbox (badness 4832) has occurred while \output is active []
 
  [10]
-<img/new_proj.png, id=339, 378.66469pt x 564.60938pt>
+<img/new_proj.png, id=363, 378.66469pt x 564.60938pt>
 File: img/new_proj.png Graphic file (type png)
 <use img/new_proj.png>
 Package pdftex.def Info: img/new_proj.png  used on input line 109.
 (pdftex.def)             Requested size: 227.20056pt x 338.76823pt.
-<img/vs.jpg, id=341, 1155.71774pt x 620.91975pt>
+<img/vs.jpg, id=365, 1155.71774pt x 620.91975pt>
 File: img/vs.jpg Graphic file (type jpg)
 <use img/vs.jpg>
 Package pdftex.def Info: img/vs.jpg  used on input line 116.
@@ -489,7 +489,7 @@ LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
 ]
 Chapter 2.
 [17]
-<img/turing.jpg, id=392, 331.2375pt x 450.68375pt>
+<img/turing.jpg, id=416, 331.2375pt x 450.68375pt>
 File: img/turing.jpg Graphic file (type jpg)
 <use img/turing.jpg>
 Package pdftex.def Info: img/turing.jpg  used on input line 167.
@@ -513,70 +513,79 @@ Overfull \hbox (16.68497pt too wide) in paragraph at lines 193--194
 
 ]
 Chapter 3.
-
-Underfull \hbox (badness 10000) in paragraph at lines 225--229
-
- []
-
-[23]
-Underfull \hbox (badness 10000) in paragraph at lines 238--240
-
- []
-
-[24]
-Underfull \hbox (badness 10000) in paragraph at lines 273--275
-
- []
-
-[25]
-Underfull \hbox (badness 10000) in paragraph at lines 290--292
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 318--319
-
- []
-
-[26] [27] [28]
+<img/algo_intro_meme.jpeg, id=446, 704.6325pt x 396.48125pt>
+File: img/algo_intro_meme.jpeg Graphic file (type jpg)
+<use img/algo_intro_meme.jpeg>
+Package pdftex.def Info: img/algo_intro_meme.jpeg  used on input line 229.
+(pdftex.def)             Requested size: 211.39139pt x 118.94528pt.
+[23 <./img/algo_intro_meme.jpeg>] [24]
 Chapter 4.
 
-Underfull \hbox (badness 10000) in paragraph at lines 345--347
+Underfull \hbox (badness 10000) in paragraph at lines 249--253
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 348--349
-
- []
-
-[29
+[25
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 370--374
+Underfull \hbox (badness 10000) in paragraph at lines 262--264
 
  []
 
-[30] [31]
-Overfull \hbox (9.11345pt too wide) in paragraph at lines 410--411
+[26]
+Underfull \hbox (badness 10000) in paragraph at lines 297--299
+
+ []
+
+[27]
+Underfull \hbox (badness 10000) in paragraph at lines 314--316
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 342--343
+
+ []
+
+[28] [29] [30]
+Chapter 5.
+
+Underfull \hbox (badness 10000) in paragraph at lines 369--371
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 372--373
+
+ []
+
+[31
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 394--398
+
+ []
+
+[32] [33]
+Overfull \hbox (9.11345pt too wide) in paragraph at lines 434--435
 \OT1/cmr/m/n/12 When you read this word ``Vari-ables", it might re-mind you of 
 al-ge-bra. How-ever,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 410--411
+Underfull \hbox (badness 10000) in paragraph at lines 434--435
 
  []
 
-[32] [33] [34] [35] [36] [37] [38]
-Underfull \hbox (badness 10000) in paragraph at lines 614--616
+[34] [35] [36] [37] [38] [39] [40]
+Underfull \hbox (badness 10000) in paragraph at lines 638--640
 
  []
 
-[39]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 645.
- [40]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 645.
+[41]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 684.
+ [42]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 684.
  (book.aux
 <Reading QR code for "https://www.youtube.com/watch?v=1OsGXuNA5cc" at level 4-Q
  from aux file.>
@@ -584,17 +593,17 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 645.
 <Reading QR code for "https://www.youtube.com/watch?v=dNRDvLACg5Q" at level 4-Q
  from aux file.>
 )
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 645.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 645.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 684.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 684.
 Package rerunfilecheck Info: File `book.out' has not changed.
-(rerunfilecheck)             Checksum: 25E904BF8D50ADB96666982534601611;3135.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 645.
+(rerunfilecheck)             Checksum: 80D7261B2739E7DF6264A7154A57BCDD;3393.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 684.
  ) 
 Here is how much of TeX's memory you used:
- 9910 strings out of 492946
- 138382 string characters out of 3135527
+ 10007 strings out of 492946
+ 139418 string characters out of 3135527
  457074 words of memory out of 3000000
- 13443 multiletter control sequences out of 15000+200000
+ 13522 multiletter control sequences out of 15000+200000
  13230 words of font info for 48 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  47i,10n,97p,1293b,1802s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -609,9 +618,9 @@ m/cmsl12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10
 .pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:
 /Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Program
  Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on book.pdf (40 pages, 911028 bytes).
+Output written on book.pdf (42 pages, 990125 bytes).
 PDF statistics:
- 755 PDF objects out of 1000 (max. 8388607)
- 274 named destinations out of 1000 (max. 500000)
- 404 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 801 PDF objects out of 1000 (max. 8388607)
+ 289 named destinations out of 1000 (max. 500000)
+ 441 words of extra memory for PDF output out of 10000 (max. 10000000)
 
