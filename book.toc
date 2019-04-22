@@ -20,38 +20,41 @@
 \contentsline {chapter}{\numberline {3}Talking About Algorithms}{23}{chapter.3}% 
 \contentsline {section}{\numberline {3.1}Motivation}{23}{section.3.1}% 
 \contentsline {section}{\numberline {3.2}What is an Algorithm?}{24}{section.3.2}% 
-\contentsline {chapter}{\numberline {4}Boolean Algebra}{25}{chapter.4}% 
-\contentsline {section}{\numberline {4.1}Some Background}{25}{section.4.1}% 
-\contentsline {section}{\numberline {4.2}Variables}{26}{section.4.2}% 
-\contentsline {section}{\numberline {4.3}A simple warm-up}{26}{section.4.3}% 
-\contentsline {section}{\numberline {4.4}Gates}{27}{section.4.4}% 
-\contentsline {subsection}{\numberline {4.4.1}The AND gate}{27}{subsection.4.4.1}% 
-\contentsline {subsection}{\numberline {4.4.2}The OR Gate}{27}{subsection.4.4.2}% 
-\contentsline {subsection}{\numberline {4.4.3}The XOR Gate}{28}{subsection.4.4.3}% 
-\contentsline {subsection}{\numberline {4.4.4}The NOT gate}{28}{subsection.4.4.4}% 
-\contentsline {section}{\numberline {4.5}Boolean Identities}{29}{section.4.5}% 
-\contentsline {section}{\numberline {4.6}Boolean Algebra and Set Theory}{29}{section.4.6}% 
-\contentsline {chapter}{\numberline {5}C++ From Scratch}{31}{chapter.5}% 
-\contentsline {section}{\numberline {5.1}The language}{31}{section.5.1}% 
-\contentsline {section}{\numberline {5.2}The Minimal Program}{31}{section.5.2}% 
-\contentsline {section}{\numberline {5.3}Console Output}{32}{section.5.3}% 
-\contentsline {section}{\numberline {5.4}Comments}{33}{section.5.4}% 
-\contentsline {subsection}{\numberline {5.4.1}Single-line comments}{33}{subsection.5.4.1}% 
-\contentsline {subsection}{\numberline {5.4.2}Multi-line comments}{34}{subsection.5.4.2}% 
-\contentsline {section}{\numberline {5.5}Variables}{34}{section.5.5}% 
-\contentsline {subsection}{\numberline {5.5.1}A Useful Analogy}{34}{subsection.5.5.1}% 
-\contentsline {subsection}{\numberline {5.5.2}Declaring Variables}{34}{subsection.5.5.2}% 
-\contentsline {section}{\numberline {5.6}Operators and Operands}{35}{section.5.6}% 
-\contentsline {subsection}{\numberline {5.6.1}The assignment operator}{36}{subsection.5.6.1}% 
-\contentsline {subsection}{\numberline {5.6.2}The arithmetic operators}{36}{subsection.5.6.2}% 
-\contentsline {subsubsection}{The addition operator}{36}{section*.9}% 
-\contentsline {subsubsection}{The Subtraction operator}{38}{section*.10}% 
-\contentsline {subsubsection}{The Multiplication operator}{38}{section*.11}% 
-\contentsline {subsubsection}{The Division operator}{39}{section*.12}% 
-\contentsline {subsubsection}{The Modulo Operator}{39}{section*.13}% 
-\contentsline {subsection}{\numberline {5.6.3}Boolean Operators}{40}{subsection.5.6.3}% 
-\contentsline {subsubsection}{The OR operator}{40}{section*.14}% 
-\contentsline {subsubsection}{Other Boolean Operators}{41}{section*.15}% 
-\contentsline {subsection}{\numberline {5.6.4}Comparison Operators}{41}{subsection.5.6.4}% 
-\contentsline {subsection}{\numberline {5.6.5}Other operators}{41}{subsection.5.6.5}% 
-\contentsline {subsection}{\numberline {5.6.6}End Note on Operators}{42}{subsection.5.6.6}% 
+\contentsline {section}{\numberline {3.3}Making a computer follow an algorithm}{24}{section.3.3}% 
+\contentsline {subsection}{\numberline {3.3.1}Language Processors}{24}{subsection.3.3.1}% 
+\contentsline {chapter}{\numberline {4}Boolean Algebra}{27}{chapter.4}% 
+\contentsline {section}{\numberline {4.1}Some Background}{27}{section.4.1}% 
+\contentsline {section}{\numberline {4.2}Variables}{28}{section.4.2}% 
+\contentsline {section}{\numberline {4.3}A simple warm-up}{28}{section.4.3}% 
+\contentsline {section}{\numberline {4.4}Gates}{29}{section.4.4}% 
+\contentsline {subsection}{\numberline {4.4.1}The AND gate}{29}{subsection.4.4.1}% 
+\contentsline {subsection}{\numberline {4.4.2}The OR Gate}{29}{subsection.4.4.2}% 
+\contentsline {subsection}{\numberline {4.4.3}The XOR Gate}{30}{subsection.4.4.3}% 
+\contentsline {subsection}{\numberline {4.4.4}The NOT gate}{30}{subsection.4.4.4}% 
+\contentsline {section}{\numberline {4.5}Boolean Identities}{31}{section.4.5}% 
+\contentsline {section}{\numberline {4.6}Boolean Algebra and Set Theory}{31}{section.4.6}% 
+\contentsline {chapter}{\numberline {5}C++ From Scratch}{33}{chapter.5}% 
+\contentsline {section}{\numberline {5.1}The language}{33}{section.5.1}% 
+\contentsline {section}{\numberline {5.2}The Minimal Program}{33}{section.5.2}% 
+\contentsline {section}{\numberline {5.3}Console Output}{34}{section.5.3}% 
+\contentsline {section}{\numberline {5.4}Comments}{35}{section.5.4}% 
+\contentsline {subsection}{\numberline {5.4.1}Single-line comments}{35}{subsection.5.4.1}% 
+\contentsline {subsection}{\numberline {5.4.2}Multi-line comments}{36}{subsection.5.4.2}% 
+\contentsline {section}{\numberline {5.5}Variables}{36}{section.5.5}% 
+\contentsline {subsection}{\numberline {5.5.1}A Useful Analogy}{36}{subsection.5.5.1}% 
+\contentsline {subsection}{\numberline {5.5.2}Declaring Variables}{36}{subsection.5.5.2}% 
+\contentsline {section}{\numberline {5.6}Constants and the const Keyword}{37}{section.5.6}% 
+\contentsline {section}{\numberline {5.7}Operators and Operands}{38}{section.5.7}% 
+\contentsline {subsection}{\numberline {5.7.1}The assignment operator}{38}{subsection.5.7.1}% 
+\contentsline {subsection}{\numberline {5.7.2}The arithmetic operators}{39}{subsection.5.7.2}% 
+\contentsline {subsubsection}{The addition operator}{39}{section*.9}% 
+\contentsline {subsubsection}{The Subtraction operator}{40}{section*.10}% 
+\contentsline {subsubsection}{The Multiplication operator}{41}{section*.11}% 
+\contentsline {subsubsection}{The Division operator}{41}{section*.12}% 
+\contentsline {subsubsection}{The Modulo Operator}{42}{section*.13}% 
+\contentsline {subsection}{\numberline {5.7.3}Boolean Operators}{42}{subsection.5.7.3}% 
+\contentsline {subsubsection}{The OR operator}{43}{section*.14}% 
+\contentsline {subsubsection}{Other Boolean Operators}{43}{section*.15}% 
+\contentsline {subsection}{\numberline {5.7.4}Comparison Operators}{43}{subsection.5.7.4}% 
+\contentsline {subsection}{\numberline {5.7.5}Other operators}{44}{subsection.5.7.5}% 
+\contentsline {subsection}{\numberline {5.7.6}End Note on Operators}{44}{subsection.5.7.6}% 

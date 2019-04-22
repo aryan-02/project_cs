@@ -244,6 +244,23 @@ Talk to your friend.
 End the call.
 Halt.
 \end{lstlisting}
+\section{Making a computer follow an algorithm}
+Now that we know what algorithms are, let me try to show you the various forms an algorithm can take when you try to tell a computer the steps it needs to follow.\\
+\subsection{Language Processors}
+We discussed in Chapter 1 that a computer understands only machine code. This machine code is specific to every processor. Therefore, we have a language called Assembly that gets translated to system-specific machine code. This piece of software that translates assembly into specific machine code. We call it the \textbf{Assembler}.\\
+Now, Assembly is not an easy thing to write. So we mostly use high level languages to program a computer. All high level languages are either compiled (compiler-based) or interpreted (interpreter-based). C++ is an example of a compiled language and Python is an example of an interpreted language.\\
+But what exactly is the difference?\\
+Here's how an interpreter works.\\
+It reads the code you wrote \textbf{line-by-line} and translates each line into machine code. So it starts by executing the instructions of the first line. When that is done, it translates and executes the code of the second line, and so on...\\
+Now, a compiler is what I consider smarter than an interpreter for this reason:\\
+A compiler takes \textbf{all your code at once}, and translates the whole thing into machine code. Then you can manually (or automatically) execute that compiled code whenever you like.\\
+Another advantage of a compiler over an interpreter is that, if there is an error in the code you wrote, the compiler will halt and display where each error is. However, an interpreter won't even find an error on line 485 unless it has executed everything before line 485.\\
+Here's a quick summary of what we discussed:\\
+\begin{figure}[h]
+\centering
+\includegraphics[scale=0.6]{img/lang_proc}
+\caption{Language Processors - Summary}\label{lang_proc}
+\end{figure}
 \chapter{Boolean Algebra}
 \epigraph{\centering ``One should never try to prove anything that is not almost obvious."}{\textit{Alexander Grothendieck \\ French Mathematician, 1966 Fields Medallist}}
 Boolean algebra is a concept of mathematics that helps us deal with statements about truth and allows us to formally talk about what is true and what is false.\\
@@ -340,6 +357,7 @@ Unlike the other gates, the NOT gate takes only one boolean as input and returns
 \end{center}
 \section{Boolean Identities}
 The proofs of these identities are trivial. You can prove these by making a truth table for the LHS and the RHS. You do not need to remember any of this, but make sure you understand what they mean, or at least verify if they look obvious (spoiler alert: they will).\\
+WARNING: DO NOT TRY TO REMEMBER THEM. Make them a part of your life.
 \begin{align}
 a \text{ OR } b &= b \text{ OR } a\\
 a \text{ AND } b &= b \text{ AND } a\\
@@ -431,10 +449,10 @@ a multi-line
 comment */
 \end{lstlisting}
 \section{Variables}
-When you read this word ``Variables", it might remind you of algebra. However, the notion of a variable is similar, yet quite different in computer science compared to what you've learnt in algebra.\\
+When you read this word ``Variable", it might remind you of algebra. However, the notion of a variable is similar, yet quite different in computer science compared to what you've learnt in algebra.\\
 \subsection{A Useful Analogy}
 With time, you will realise for yourself what a variable actually is. However, since you are probably new to programming in general, here's a useful analogy that works. Whenever you're stuck, this analogy will help you.\\
-Whenever I say, ``Variable", imagine a \textbf{bucket} that can store a particular type of information. We can read the information stored in a variable (bucket) and change it.\\
+Whenever I say, ``Variable", imagine a \textbf{bucket} that can store a particular type of information. We can read the information stored in a variable (bucket) and change it. Later, we'll refer to it as space in the memory but for now, just think of a bucket.\\
 This idea is very important - We can change the data stored in a variable by assigning it a new value.
 \subsection{Declaring Variables}
 Now that you know what I mean by variables, we can now start playing with variables.\\
@@ -473,6 +491,11 @@ int myNumber {1};
 \end{lstlisting}
 Note that although you can initialize a variable like this, you cannot assign a value to variable using curly braces. For assignment, the equal sign must be used.\\
 Also, by the modern C++ Core Guidelines, it is considered as a good practice to use curly braces for initialization (i.e. the last method).
+\section{Constants and the const Keyword}
+A constant is just like a variable. The only difference is that you can assign a value to a constant only once. Constants are declared just like variables; it's just that they have the \lstinline{const} keyword right before the declaration.\\
+The \lstinline{const} keyword is like telling the compiler: ``Hey! I promise I won't try to change the value of this variable later." And if you break the promise, the compiler will give you an error. It's considered as a good practice to use the \lstinline{const} keyword whenever you're sure you won't have to change the value held by that ``bucket". Note that a constant declaration must have an initialization. You CANNOT leave a constant uninitialized.\\
+Example:\\
+\lstinline{const int a = 1; // You cannot assign a to anything else now. You can only use the value of a.}
 \section{Operators and Operands}
 You know what an operator is in mathematics. We have four main arithmetic operators in math for addition($+$), subtraction($-$), multiplication($\times$) and division($\div$). Similarly, we have operators in C++.
 \begin{definition}
@@ -668,6 +691,12 @@ Here's a table of the comparison operators in C++. You'll find them quite simple
 		\hline
 	\end{tabular}
 \end{center}
+For information on how these work, please scan this QR code and watch the video:\\
+\begin{figure*}[h]
+\centering
+\qrcode[height=1.5in]{https://www.youtube.com/watch?v=T0kEDZ-tuNw}
+\caption{(https://www.youtube.com/watch?v=T0kEDZ-tuNw)}
+\end{figure*}
 \subsection{End Note on Operators}
 These are not the only operators in C++. We will talk about more operators later. In fact, C++ is so flexible that it even allows custom operators.\\
 Also, you can always use multiple operators in the same instruction. When you do that, you can use parentheses, i.e. round brackets () to specify which operation is to be done first. For example:
