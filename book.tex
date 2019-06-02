@@ -54,7 +54,7 @@ With that said, I wish you luck for your visit to this new world.\\
 \epigraph{\centering ``C makes it easy to shoot yourself in the foot; C++ makes it harder, but when you do it blows your whole leg off."}{\textit{Bjarne Stroustrup \\ The Creator of C++}}
 \section{Why C++?}
 This is the very first chapter of the book and I'm talking directly about C++. Is that weird? Many people would have told you that C++ is difficult and that Python is the language to start with. I totally disagree with that opinion. You see, the thing is that Python is so overly simple that if we use it to learn computer science, it won't teach us a lot. You'll realize it later that Python has what I like to call ``Magic". And while there's no harm in seeing magic happen, the real fun is in doing that magic yourself. C++ doesn't have much ``magic" built-in. This allows us to \textbf{do the ``magic" ourselves} And trust me, it's going to be awesome.
-\section{Some HiSTORY}
+\section{Some History}
 History is boring, isn't it? Well, yes, if you get stuck with the dates and the facts. However, in this case, I'll remove all the boring parts of it. All we care about, is the story of C++. Let's begin.
 \subsection{Assembly}
 You must have learnt in your previous classes that the computer understands only one language. No prizes for guessing - \textbf{Binary}. It's either a zero or a one, i.e. on or off.\\
@@ -696,7 +696,8 @@ For information on how these work, please scan this QR code and watch the video:
 \centering
 \qrcode[height=1.5in]{https://www.youtube.com/watch?v=T0kEDZ-tuNw}
 \caption{(https://www.youtube.com/watch?v=T0kEDZ-tuNw)}
-\end{figure*}
+\end{figure*}\\
+Hopefully, after watching the video, you can now understand the meaning of the name "C++". It was called C++ because it's more than just C. It's like an \textbf{increment} to what C was. Although C++ and C are very similar, C++ has some nice advanced features built-in. Also note that C++ is backwards compatible with C. This means that most things that work in C also work in C++.
 \subsection{End Note on Operators}
 These are not the only operators in C++. We will talk about more operators later. In fact, C++ is so flexible that it even allows custom operators.\\
 Also, you can always use multiple operators in the same instruction. When you do that, you can use parentheses, i.e. round brackets () to specify which operation is to be done first. For example:
@@ -711,10 +712,136 @@ int main()
 This program will output 3 since $2 + 2$ is $4$. Subtract one, and that's $3$. (Quick Math!)\\
 So the output will be 3.
 \section{Console Input}
-To be added. (TBA)
+You can take the value of variables as input using \lstinline{std::cin}.\\
+Here's how you can do it.
+\begin{lstlisting}
+#include <iostream>
+int main()
+{
+	int a {};
+	std::cout << "Enter a number: " << std::endl;
+	std::cin >> a; // Takes a as input
+	std::cout << "You entered " << a << std::endl; // Outputs the value held by a
+	return 0;
+}
+\end{lstlisting}
+\section{The \lstinline{if} Conditional Statement}
+\subsection{The Simple \lstinline{if} Statement}
+The \lstinline{if} statement takes a boolean expression and a block of code to be executed if the boolean expression evaluates to true.\\
+I know that doesn't sound simple, but it's really not that hard. Let me just show you an example.
+\begin{lstlisting}
+#include <iostream>
+int main()
+{
+	int a {5};
+	if(a > 3)
+	{
+		std::cout << "a is greater than 3." << std::endl;
+	}
+}
+\end{lstlisting}
+In the above example code, look at what we're doing.\\
+We initialized a variable \lstinline{a}. Then in the \lstinline{if} statement, we checked if the value of \lstinline{a} is greater than 3.\\
+The if statement told the computer check if a is greater than 3 and to execute the instructions inside the \lstinline{if} block if the condition is true.\\
+So the output will be:\\
+\begin{lstlisting}
+a is greater than 3.
+\end{lstlisting}
+\subsection{Extending the \lstinline{if} statement}
+Let us quickly look at how multiple conditions are evaluated.\\
+The \lstinline{else if} statement contains the condition that is checked if the previous if condition was not true. Here's an example:\\
+\begin{lstlisting}
+#include <iostream>
+int main()
+{
+	int a {-8};
+	if(a > 0)
+	{
+		std::cout << "Positive" << std::endl;
+	}
+	else if(a < 0)
+	{
+		std::cout << "Negative" << std::endl;
+	}
+}
+\end{lstlisting}
+The output of the above program will be \lstinline{Negative}. It first checked if \lstinline{a} was greater than zero. But that's false. So it moved on to check the next condition provided by the \lstinline{else if}.\\
+You can also use the \lstinline{else} block in this way:\\
+\begin{lstlisting}
+#include <iostream>
+int main()
+{
+	int a {-8};
+	if(a > 0)
+	{
+		std::cout << "Positive" << std::endl;
+	}
+	else if(a < 0)
+	{
+		std::cout << "Negative" << std::endl;
+	}
+	else
+	{
+		std::cout << "Zero" << std::endl;
+	}
+}
+\end{lstlisting}
+The output of the above program will be \lstinline{Zero}. The else block is executed when none of the above statements is true.\\
+Note that you can also have an \lstinline{else} block directly after an \lstinline{if} block without the \lstinline{else if}.
+\section{Iteration or Looping}
+What do you think iteration means? Perhaps you'd think it's related to doing something many times. And you'd be right. It is exactly that. Now the question is, if I want a computer to do something five times, why should I learn about iteration/looping when I can simply copy and paste that piece of code five times?\\
+Here's the idea. That may work if you know at the time of programming, how many times something has to be repeated. But what if that number were to be taken into a variable as input? That's where the concept of loops comes in.\\ 
+{\color{red}(Warning: NEVER attempt to repeat instructions by simply copying and pasting them in place. Doing that without using a loop is a HORRIBLE way of programming called WET code)}\\
+Loops help us overcome the problem of WET code (i.e. Write Everything Twice) and help make our code DRY (i.e. Don't Repeat Yourself).\\
+There are many types of loops in C++.
+\subsection{The \lstinline{while} Loop}
+The \lstinline{while} loop takes a condition enclosed within a pair of parentheses () and keeps repeating the piece of code inside its block as long as the condition of the loop holds true.\\
+For example, if you had to display all the natural numbers from 1 to 4, you could do it this way:\\
+\begin{lstlisting}
+#include <iostream>
+int main()
+{
+	int a {1};
+	while(a <= 4) // Repeat while a is less than or equal to 4
+	{
+		std::cout << a << std::endl;
+		a++; // Increment a by 1
+	}
+	return 0;
+}
+\end{lstlisting}
+The idea is that a \lstinline{while} loop, before every iteration, checks whether the statement in the parentheses is true. Then it executes the code inside the curly brackets if the statement is true and stops looping if the statement is false.\\
+Therefore, the above program will have the following output:
+
+\begin{lstlisting}
+1
+2
+3
+4
+\end{lstlisting}
+\subsection{The \lstinline{for} Loop}
+The above example can be simplified into a different kind of loop called the \lstinline{for} loop. It takes three statements in the parentheses, an initialization, a condition, and an increment/decrement. Here's how you'd print numbers from 1 to 4 using a \lstinline{for} loop.
+\begin{lstlisting}
+#include <iostream>
+int main()
+{
+	for(int a {1}; a <= 4; a++)
+	{
+		std::cout << a << std::endl;
+	}
+	return 0;
+}
+\end{lstlisting}
+This program will have the same output as the previous one.
 \chapter{Efficiency of Algorithms}
+\epigraph{\centering ``The purpose of computation is insight, not numbers."}{\textit{Richard Hamming}}
 What is efficiency? Intuitively, it's just a measure of how efficient something is. If a vehicle is fuel-efficient, it can travel longer distances with the same amount of fuel, compared to a vehicle which is not fuel-efficient.\\
 Similarly, algorithms can also be efficient or inefficient based on how many calculations or computations they have to make in order to solve a problem.\\
 An algorithm that solves the problem in fewer calculations is considered time-efficient.\\
-Also, an algorithm that solves the problem by using a lower amount of space in memory is space-efficient.
+Also, an algorithm that solves the problem by using a lower amount of space in memory is space-efficient.\\
+In this chapter, we will talk about the time-efficiency of algorithms. Actually, this time, you will teach yourself efficiency. Have a look at this link:\\
+https://www.geeksforgeeks.org/analysis-of-algorithms-set-1-asymptotic-analysis/ \\
+Hopefully, that explains the whole topic.
+\chapter{Further Resources}
+TBA (To be added)
 \end{document}
