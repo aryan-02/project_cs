@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6930 64-bit) (preloaded format=pdflatex 2019.1.31)  18 FEB 2020 17:17
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6930 64-bit) (preloaded format=pdflatex 2019.1.31)  3 MAY 2020 17:59
 entering extended mode
 **./book.tex
 (book.tex
@@ -514,14 +514,17 @@ Overfull \hbox (16.68497pt too wide) in paragraph at lines 193--194
 
 [21] [22]
 Chapter 3.
-<img/algo_intro_meme.jpeg, id=518, 704.6325pt x 396.48125pt>
+<img/algo_intro_meme.jpeg, id=518, 501.875pt x 501.875pt>
 File: img/algo_intro_meme.jpeg Graphic file (type jpg)
 <use img/algo_intro_meme.jpeg>
 Package pdftex.def Info: img/algo_intro_meme.jpeg  used on input line 229.
-(pdftex.def)             Requested size: 211.39139pt x 118.94528pt.
+(pdftex.def)             Requested size: 150.56366pt x 150.56366pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
 [23
 
- <./img/algo_intro_meme.jpeg>]
+]
 Underfull \hbox (badness 10000) in paragraph at lines 248--249
 
  []
@@ -536,16 +539,20 @@ Overfull \hbox (8.57211pt too wide) in paragraph at lines 261--262
  [][] 
  []
 
-[24] [25 <./img/lang_proc.jpg>] [26
+[24 <./img/algo_intro_meme.jpeg>]
 
-]
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[25] [26 <./img/lang_proc.jpg>]
 Chapter 4.
 
 Underfull \hbox (badness 10000) in paragraph at lines 266--270
 
  []
 
-[27]
+[27
+
+]
 Underfull \hbox (badness 10000) in paragraph at lines 279--281
 
  []
@@ -682,6 +689,10 @@ Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 847.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 847.
 Package rerunfilecheck Info: File `book.out' has not changed.
 (rerunfilecheck)             Checksum: C78338EEAEBC6C2DB108D668FC35CEEE;4251.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 847.
  ) 
 Here is how much of TeX's memory you used:
@@ -704,7 +715,7 @@ m/cmsl12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsltt
 C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Progr
 am Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Program Files
 /MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on book.pdf (53 pages, 1095180 bytes).
+Output written on book.pdf (53 pages, 1091378 bytes).
 PDF statistics:
  1027 PDF objects out of 1200 (max. 8388607)
  395 named destinations out of 1000 (max. 500000)
